@@ -1,0 +1,8 @@
+Cloning a file means downloading a file from a remote repository by providing the URL of that repository.
+Command:
+git clone <URL to remote repository>
+
+Above command clones a repo in present working directory(pwd).
+
+Example:
+git clone https://github.com/Ashutosh2512/GITTutorial.git
