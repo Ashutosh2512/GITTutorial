@@ -1,0 +1,9 @@
+git init command is used to initialize a local directory as a git repository.
+So, switch to your directory open your terminal and execute the following command:
+git init
+
+Now, we have initialised our directory as a git repository but we don't have a remote repository linked to our local repo.In order to do so, we obtain the URL to our remote repo and type in the following command :
+git remote add origin <URL_TO_REMOTE_REPO>
+
+Example:
+git remote add origin https://github.com/Ashutosh2512/GITTutorial 
