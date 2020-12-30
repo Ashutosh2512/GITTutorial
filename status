@@ -1,0 +1,4 @@
+Status of a git repository gives information of tracked and untracked files.
+
+Go to your git file and open terminal and type the followin command: 
+git status
