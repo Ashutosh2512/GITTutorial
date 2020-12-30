@@ -1,0 +1,6 @@
+Add command is used to track all the untracked files after the status of git repo has been obtained using git status.
+Command:
+git add <untrcaked_file_name or . to track all untracked files>
+
+Example:
+git add . 
