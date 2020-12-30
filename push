@@ -1,0 +1,10 @@
+Push is used to update our remote git repo after all the tracked changes have been committed.
+In order to do so, we need to know:
+1. Remote repo location
+2. Branch of the remote repo
+
+Command:
+git push origin master
+
+origin-It points to our remote repository
+master-It refers to the master branch of our repository. We can replace it with another branch name.
