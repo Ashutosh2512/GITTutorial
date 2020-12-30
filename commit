@@ -1,0 +1,7 @@
+Commit is used to save all the tracked changes in our directory in git.
+Go to your git directory and open terminal and enter the following command:  
+git commit -m "MESSAGE"
+
+Example:
+git commit -m "adding all the tracked files."
+
