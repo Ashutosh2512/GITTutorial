@@ -1,0 +1,12 @@
+Following command is used to create a new branch:
+git checkout -b <NEW_BRANCH_NAME>
+
+We need a branch with the same name on the remote repository in order to make a push, else we will get refspec error:
+error: src refspec master does not match any.
+
+Following command is used to switch between branches:
+git checkout <NEXT_BRANCH>
+
+Example:
+git checkout -b feature
+git checkout feature
