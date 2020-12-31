@@ -1,0 +1,35 @@
+Suppose, we want to compare our current branch with another branch,for the files and lines that have been added, deleted and modified. This can be done using the following command:
+git diff <BRANCH_NAME_TO_COMPARE>
+
+Example:
+git diff checkout_demo_branch
+
+Above command yields the following result as of now:
+
+
+diff --git a/checkout b/checkout
+new file mode 100644
+index 0000000..c04aa3f
+--- /dev/null
++++ b/checkout
+@@ -0,0 +1,12 @@
++Following command is used to create a new branch:
++git checkout -b <NEW_BRANCH_NAME>
++
++We need a branch with the same name on the remote repository in order to make a push, else we will get refspec error:
++error: src refspec master does not match any.
++
++Following command is used to switch between branches:
++git checkout <NEXT_BRANCH>
++
++Example:
++git checkout -b feature
++git checkout feature
+diff --git a/checkout_demo_file b/checkout_demo_file
+deleted file mode 100644
+index 39d64fc..0000000
+--- a/checkout_demo_file
++++ /dev/null
+@@ -1,2 +0,0 @@
+-I am the demo file for checkout_branch.
+
